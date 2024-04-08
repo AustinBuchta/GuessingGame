@@ -23,7 +23,7 @@ def play_game(limit):
 def main():
     display_the_heading()
     while True:
-        limit = int(input("Enter the limit for the range: "))
+        limit = int(input("Enter the max range: "))
         play_again = play_game(limit)
         if not play_again:
             print("Thanks for playing!")
